@@ -1,0 +1,35 @@
+# Python
+.venv/
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+backend/temp/uploads/*
+backend/temp/outputs/*
+backend/temp/zips/*
+!backend/temp/uploads/.gitkeep
+!backend/temp/outputs/.gitkeep
+!backend/temp/zips/.gitkeep
